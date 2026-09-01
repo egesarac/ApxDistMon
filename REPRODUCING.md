@@ -1,9 +1,8 @@
 # Reproducing the paper experiments
 
 All commands and relative paths below start at the **benchmark root**, the
-directory containing `README.md` and `CMakeLists.txt`. This is `code/` in the
-original monorepo and the repository root in a flattened standalone checkout.
-The default runners write a fresh, resumable run to `results/offline/` and
+repository root containing `README.md` and `CMakeLists.txt`. The default
+runners write a fresh, resumable run to `results/offline/` and
 `results/online/`. The shipped measurements under `results/reference/` are
 read-only inputs to the plotting scripts; they are not runner checkpoints.
 
@@ -49,14 +48,12 @@ paths above. The paper-figure map is:
 
 | Manuscript label and asset | Plot command | Generated output |
 | --- | --- | --- |
-| `fig:rgresults`, [`speedup_all.pdf`](https://github.com/egesarac/distributed-monitoring/blob/f68294625456612c3a1ece00439ebc428a67eb01/tex_sttt/speedup_all.pdf) | `.venv/bin/python visualization/plot_offline_random.py` | `results/figures/speedup_offline_random.pdf` |
-| `fig:rgresultsOnline`, [`speedup_online.pdf`](https://github.com/egesarac/distributed-monitoring/blob/f68294625456612c3a1ece00439ebc428a67eb01/tex_sttt/speedup_online.pdf) | `.venv/bin/python visualization/plot_online.py` | `results/figures/speedup_online.pdf` |
-| `fig:wtresults`, [`speedup_offline_wt.pdf`](https://github.com/egesarac/distributed-monitoring/blob/f68294625456612c3a1ece00439ebc428a67eb01/tex_sttt/speedup_offline_wt.pdf) | `.venv/bin/python visualization/plot_offline_wt.py` | `results/figures/speedup_offline_wt.pdf` |
-| `fig:sdresults`, [`speedup_offline_ms.pdf`](https://github.com/egesarac/distributed-monitoring/blob/f68294625456612c3a1ece00439ebc428a67eb01/tex_sttt/speedup_offline_ms.pdf) | `.venv/bin/python visualization/plot_offline_ms.py` | `results/figures/speedup_offline_ms.pdf` |
+| `fig:rgresults`, `speedup_all.pdf` | `.venv/bin/python visualization/plot_offline_random.py` | `results/figures/speedup_offline_random.pdf` |
+| `fig:rgresultsOnline`, `speedup_online.pdf` | `.venv/bin/python visualization/plot_online.py` | `results/figures/speedup_online.pdf` |
+| `fig:wtresults`, `speedup_offline_wt.pdf` | `.venv/bin/python visualization/plot_offline_wt.py` | `results/figures/speedup_offline_wt.pdf` |
+| `fig:sdresults`, `speedup_offline_ms.pdf` | `.venv/bin/python visualization/plot_offline_ms.py` | `results/figures/speedup_offline_ms.pdf` |
 
-Those manuscript assets are links to the immutable source snapshot from which
-this benchmark package was prepared. The plotters write only to
-`results/figures/` by default; they do not update the companion manuscript.
+The plotters write only to `results/figures/` by default.
 
 ## Experiment contract
 

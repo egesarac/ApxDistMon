@@ -20,13 +20,10 @@ components. Values are mapped to Boolean propositions with `value > 0`; zero
 is false. The runners apply clock skew `epsilon` to these fixed traces, so
 `epsilon` is not an input-generation parameter.
 
-The generator associated with these files is preserved in the original
-monorepo's pinned
-[`archive/code/rv/new/old/generator.cpp`](https://github.com/egesarac/distributed-monitoring/blob/f68294625456612c3a1ece00439ebc428a67eb01/archive/code/rv/new/old/generator.cpp).
-It used C++ `uniform_int_distribution(-100,100)` and seeded a new `mt19937`
-from `random_device` for every file. It did not accept or record a seed or
-engine state. The supplied files can therefore be replayed exactly, but they
-cannot be regenerated bit-for-bit from documented parameters.
+The generator used C++ `uniform_int_distribution(-100,100)` and seeded a new
+`mt19937` from `random_device` for every file. It did not accept or record a
+seed or engine state. The supplied files can therefore be replayed exactly,
+but they cannot be regenerated bit-for-bit from documented parameters.
 
 ## Case-study traces
 

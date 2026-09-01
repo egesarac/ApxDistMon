@@ -1,6 +1,6 @@
 # RV-paper original timed solver: exploratory performance
 
-Matrix: phi5 and phi6; durations 4, 8, and 16; epsilon in {1,2,4,8} when epsilon <= duration; samples 0, 1, and 2. The trace files are byte-identical to the archived `dataNew` inputs.
+Matrix: phi5 and phi6; durations 4, 8, and 16; epsilon in {1,2,4,8} when epsilon <= duration; samples 0, 1, and 2. The trace files are byte-identical to the corresponding `data/signals/` fixtures.
 
 Each positive and negative check had a 5-second Z3 cap. Exact instance time is max(positive time, negative time). Solver/module import time is excluded. Four persistent worker processes were used.
 

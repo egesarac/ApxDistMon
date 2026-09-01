@@ -1,12 +1,5 @@
 # Code archive
 
-This directory contains old work from after the original STTT submission. The
-original RV and STTT artifacts are preserved in the original monorepo's pinned
-[top-level `archive/`
-tree](https://github.com/egesarac/distributed-monitoring/tree/f68294625456612c3a1ece00439ebc428a67eb01/archive);
-that companion tree is not part of a flattened standalone checkout. Files here
-are for reference and are not current benchmark results.
-
 ## Contents
 
 - `analysis/` contains old notes and diagnostic programs. Superseded drafts
@@ -39,8 +32,3 @@ are for reference and are not current benchmark results.
   The active solver uses `2*d`; see the
   [counterexample](analysis/scale_2eps_plus_1_counterexample.md) and
   [safety note](analysis/timed_grid_scale_2d_safety.md).
-
-Historical runner checkpoint databases, their WAL/SHM sidecars, and lock files
-are intentionally omitted. The materialized result files and derived figures
-are the archival record; these snapshots are not resumable runner outputs. Do
-not merge them into `results/`.

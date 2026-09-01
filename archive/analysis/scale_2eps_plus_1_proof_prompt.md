@@ -44,8 +44,7 @@ integer physical-grid ticks per one unit of time, so a duration-`d` grid has
 ticks `0,...,K*d-1` and tick `r` represents physical time `r/K`.
 
 Treat the directory containing `README.md` and `CMakeLists.txt` as the
-benchmark root. Repository paths below are relative to that directory unless
-they are external links to the pinned companion manuscript.
+benchmark root. Repository paths below are relative to that directory.
 
 ### Repository evidence to inspect
 
@@ -60,11 +59,9 @@ Read the relevant code and semantics before formalizing the claim:
   `tests/test_random_exact.py`.
 - Formula dispatch and bounds:
   `benchmarks/offline/exact/run.py` (`phi5` and `phi6`).
-- Paper semantics:
-  the pinned companion manuscript
-  [`tex_sttt/main.tex`](https://github.com/egesarac/distributed-monitoring/blob/f68294625456612c3a1ece00439ebc428a67eb01/tex_sttt/main.tex),
-  especially the definition of admissible clock families, consistent
-  cuts/retimings, and three-valued satisfaction around lines 312--405.
+- Paper semantics (the manuscript is not included here), especially the
+  definition of admissible clock families, consistent cuts/retimings, and
+  three-valued satisfaction.
 - Archived comparison implementations:
   `archive/solvers/2026-08-22-timed-edm-real-clock-and-discrete-grid-experiments/discrete_grid_and_optimized_continuous_edge.py`
   and

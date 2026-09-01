@@ -24,8 +24,7 @@ instance times, following the exact benchmark driver. The historical results
 also used the maximum rather than the sum. For example, historical sample 0 at
 duration 32 and epsilon 1 records 14.5495 s for the positive instance and
 13.7417 s for the negative instance; the relevant exact time is 14.5495 s, not
-28.2912 s. See the [historical raw
-result](https://github.com/egesarac/distributed-monitoring/blob/f68294625456612c3a1ece00439ebc428a67eb01/archive/code/rv/smt/old/results_ac_smt%2Bneg.txt).
+28.2912 s.
 
 ## Observed discrepancy
 
@@ -36,8 +35,6 @@ The corresponding heatmap-input cells are:
 | Historical RV result | 0.00025149 s | 14.24021515 s | 56,623.39x |
 | Current result | 0.00021172 s | 1.59534270 s | 7,535.15x |
 
-The historical cell is stored in the original monorepo's pinned
-[`archive/results/gand.csv`](https://github.com/egesarac/distributed-monitoring/blob/f68294625456612c3a1ece00439ebc428a67eb01/archive/results/gand.csv).
 The current cell was regenerated from the maintained benchmark outputs during
 this investigation.
 
@@ -62,16 +59,16 @@ aggregation artifact. For sample 0, for example:
 | Historical | 14.5495 s | 13.7417 s | `(0, 1)` |
 | Current | 1.4898 s | 1.1182 s | `(0, 1)` |
 
-See the
-[historical](https://github.com/egesarac/distributed-monitoring/blob/f68294625456612c3a1ece00439ebc428a67eb01/archive/code/rv/smt/old/results_ac_smt%2Bneg.txt)
-and [current reference](../../results/reference/offline/exact/random/phi1.txt)
-raw result files.
+The current measurements are in the
+[current reference](../../results/reference/offline/exact/random/phi1.txt)
+raw result file.
 
 ## Implementations compared
 
 The relevant sources are:
 
-- [RV-paper implementation](https://github.com/egesarac/distributed-monitoring/blob/f68294625456612c3a1ece00439ebc428a67eb01/archive/code/rv/smt/smt_synt_untimed.py)
+- Historical RV-paper implementation used for the recorded A/B test (not
+  included here)
 - [Current implementation](../../benchmarks/offline/exact/smt/random.py)
 
 For the always-conjunction monitor and its dual negative check, the maintained
@@ -177,11 +174,8 @@ only a few percent:
 
 This test does not establish which Z3 version was installed on the RV-paper
 computer. The paper states only that EDM invokes Z3 and contains no package
-lock or exact version record; see the [RV experiment
-description](https://github.com/egesarac/distributed-monitoring/blob/f68294625456612c3a1ece00439ebc428a67eb01/archive/tex_rv/experiments.tex).
-Version 4.13.0 is the
-correct latest-available version for 2024-04-30, not proof of what was actually
-installed.
+lock or exact version record. Version 4.13.0 is the correct latest-available
+version for 2024-04-30, not proof of what was actually installed.
 
 Nevertheless, Z3 4.13.0 runs both source implementations near the current
 speed on the present computer. The 4.13-to-4.16 solver change does not reproduce

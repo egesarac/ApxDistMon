@@ -2,9 +2,8 @@
 
 This directory contains the maintained monitors, benchmarks, tests, input
 data, and figure scripts. In this documentation, the **benchmark root** is the
-directory containing this `README.md` and `CMakeLists.txt`. It is `code/` in
-the original monorepo and the repository root in a flattened standalone
-checkout. Run the commands below from the benchmark root.
+repository root, which contains this `README.md` and `CMakeLists.txt`. Run the
+commands below from the benchmark root.
 
 You need CMake 3.16 or newer and Python 3.12. The maintained
 benchmark runners require a POSIX system providing `fcntl.flock`, and the C++
