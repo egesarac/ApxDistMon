@@ -1,0 +1,86 @@
+{
+  "solver": "archive/code/rv/smt/smt_synt_timed.py",
+  "matrix": {
+    "formulas": [
+      "phi5",
+      "phi6"
+    ],
+    "durations": [
+      4,
+      8,
+      16
+    ],
+    "epsilons": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "epsilon_rule": "epsilon <= duration",
+    "samples": [
+      0,
+      1,
+      2
+    ]
+  },
+  "timeout_seconds_per_polarity": 5.0,
+  "timing_rule": "max(positive_seconds, negative_seconds)",
+  "instances": 66,
+  "completed_instances": 45,
+  "timed_out_instances": 21,
+  "error_instances": 0,
+  "positive_timeouts": 20,
+  "negative_timeouts": 12,
+  "both_polarities_timed_out": 11,
+  "formula_stats": {
+    "phi5": {
+      "instances": 33,
+      "completed": 24,
+      "timed_out": 9,
+      "completion_percent": 72.72727272727273,
+      "median_completed_seconds": 0.31729304950567894,
+      "maximum_completed_seconds": 5.289405575953424,
+      "verdicts": {
+        "false": 20,
+        "true": 2,
+        "inconclusive": 2
+      }
+    },
+    "phi6": {
+      "instances": 33,
+      "completed": 21,
+      "timed_out": 12,
+      "completion_percent": 63.63636363636363,
+      "median_completed_seconds": 0.25621238903841004,
+      "maximum_completed_seconds": 7.278207201976329,
+      "verdicts": {
+        "false": 17,
+        "true": 2,
+        "inconclusive": 2
+      }
+    }
+  },
+  "comparison_with_random_grid_timed": {
+    "transitions": {
+      "random_grid_ok_rv_ok": 13,
+      "random_grid_ok_rv_timeout": 1,
+      "random_grid_timeout_rv_ok": 32,
+      "random_grid_timeout_rv_timeout": 20
+    },
+    "common_completed": 13,
+    "by_formula": {
+      "phi5": {
+        "common_completed": 7,
+        "grid_median_seconds": 0.025932692049536854,
+        "rv_median_seconds": 0.5512479469762184,
+        "median_grid_over_rv_ratio": 0.13376959018210835
+      },
+      "phi6": {
+        "common_completed": 6,
+        "grid_median_seconds": 0.037627462996169925,
+        "rv_median_seconds": 0.44728843099437654,
+        "median_grid_over_rv_ratio": 0.14922469198148985
+      }
+    }
+  }
+}

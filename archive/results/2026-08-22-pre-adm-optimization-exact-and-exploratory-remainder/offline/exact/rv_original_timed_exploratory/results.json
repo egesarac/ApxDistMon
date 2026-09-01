@@ -1,0 +1,9 @@
+{
+  "checks": 132,
+  "instances": 66,
+  "timeout_seconds_per_polarity": 5.0,
+  "completed_instances": 45,
+  "timed_out_instances": 21,
+  "error_instances": 0,
+  "output": "results.csv"
+}

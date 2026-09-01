@@ -1,0 +1,14 @@
+/build*/
+/.venv/
+/results/offline/
+/results/online/
+/results/figures/
+**/.run_offline.lock
+**/.run_online.lock
+CMakeCache.txt
+CMakeFiles/
+compile_commands.json
+.pytest_cache/
+__pycache__/
+*.py[cod]
+*.o

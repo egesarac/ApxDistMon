@@ -1,0 +1,5 @@
+formula,polarity,duration,epsilon,sample,status,seconds,value,error
+phi5,negative,4,1,1,timeout,30.086619550012983,,RuntimeError: Z3 returned unknown: timeout
+phi5,negative,16,1,1,timeout,30.10338874097215,,RuntimeError: Z3 returned unknown: timeout
+phi6,negative,4,1,2,timeout,30.044293001992628,,RuntimeError: Z3 returned unknown: timeout
+phi6,negative,8,1,0,timeout,30.060564829967916,,RuntimeError: Z3 returned unknown: timeout

@@ -1,0 +1,9 @@
+stage	instance	timeout_seconds	reason
+exact-random	exact-random|phi6|8|1|12|grid-2d-v1	600	Z3 timed out: timeout
+exact-random	exact-random|phi6|8|1|35|grid-2d-v1	600	Z3 timed out: timeout
+exact-random	exact-random|phi6|8|1|48|grid-2d-v1	600	Z3 timed out: timeout
+exact-random	exact-random|phi6|8|1|79|grid-2d-v1	600	Z3 timed out: timeout
+exact-random	exact-random|phi6|8|1|97|grid-2d-v1	600	Z3 timed out: timeout
+exact-random	exact-random|phi6|8|2|48|grid-2d-v1	600	Z3 timed out: timeout
+exact-mutual-separation	exact-mutual-separation|4|4|rv-full-flow-v1	360	Z3 timed out: timeout
+exact-mutual-separation	exact-mutual-separation|4|5|rv-full-flow-v1	360	Z3 timed out: timeout

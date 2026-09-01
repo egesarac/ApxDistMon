@@ -1,0 +1,67 @@
+formula,duration,epsilon,sample,positive_status,positive_seconds,positive_value,positive_error,negative_status,negative_seconds,negative_value,negative_error,exact_seconds,status,verdict
+phi5,4,1,0,ok,0.012979092018213123,False,,ok,0.012328167038504034,True,,0.012979092018213123,ok,0
+phi5,4,1,1,ok,0.016890493978280574,True,,timeout,5.050965308968443,,RuntimeError: Z3 returned unknown: timeout,5.050965308968443,timeout,
+phi5,4,1,2,ok,0.007233506010379642,False,,ok,0.007550739974249154,True,,0.007550739974249154,ok,0
+phi5,4,2,0,ok,0.006517764995805919,False,,timeout,5.016491704038344,,RuntimeError: Z3 returned unknown: timeout,5.016491704038344,timeout,
+phi5,4,2,1,ok,0.0063951159827411175,False,,timeout,5.035995799989905,,RuntimeError: Z3 returned unknown: timeout,5.035995799989905,timeout,
+phi5,4,2,2,ok,0.0064487149938941,False,,timeout,5.020694245991763,,RuntimeError: Z3 returned unknown: timeout,5.020694245991763,timeout,
+phi5,4,4,0,ok,0.010566844022832811,False,,timeout,5.020728686999064,,RuntimeError: Z3 returned unknown: timeout,5.020728686999064,timeout,
+phi5,4,4,1,ok,0.0072512380429543555,False,,timeout,5.019724251993466,,RuntimeError: Z3 returned unknown: timeout,5.019724251993466,timeout,
+phi5,4,4,2,ok,0.010844635020475835,False,,timeout,5.031003253010567,,RuntimeError: Z3 returned unknown: timeout,5.031003253010567,timeout,
+phi5,8,1,0,ok,0.02515493199462071,False,,timeout,5.041117378976196,,RuntimeError: Z3 returned unknown: timeout,5.041117378976196,timeout,
+phi5,8,1,1,ok,0.024871728965081275,False,,timeout,5.047366119979415,,RuntimeError: Z3 returned unknown: timeout,5.047366119979415,timeout,
+phi5,8,1,2,ok,0.024681500042788684,False,,ok,0.017088208987843245,True,,0.024681500042788684,ok,0
+phi5,8,2,0,ok,0.018889834987930954,False,,timeout,5.046501013042871,,RuntimeError: Z3 returned unknown: timeout,5.046501013042871,timeout,
+phi5,8,2,1,ok,0.018014556961134076,False,,timeout,5.029141034989152,,RuntimeError: Z3 returned unknown: timeout,5.029141034989152,timeout,
+phi5,8,2,2,ok,0.018054132000543177,False,,timeout,5.047288000001572,,RuntimeError: Z3 returned unknown: timeout,5.047288000001572,timeout,
+phi5,8,4,0,ok,0.018804443010594696,False,,timeout,5.029120357008651,,RuntimeError: Z3 returned unknown: timeout,5.029120357008651,timeout,
+phi5,8,4,1,ok,0.026098166999872774,False,,timeout,5.03218541899696,,RuntimeError: Z3 returned unknown: timeout,5.03218541899696,timeout,
+phi5,8,4,2,ok,0.025932692049536854,False,,ok,0.020200869999825954,True,,0.025932692049536854,ok,0
+phi5,8,8,0,ok,0.025512423017062247,False,,timeout,5.032165639044251,,RuntimeError: Z3 returned unknown: timeout,5.032165639044251,timeout,
+phi5,8,8,1,ok,0.024095200991723686,False,,timeout,5.048561609000899,,RuntimeError: Z3 returned unknown: timeout,5.048561609000899,timeout,
+phi5,8,8,2,ok,0.025331161974463612,False,,timeout,5.032978636038024,,RuntimeError: Z3 returned unknown: timeout,5.032978636038024,timeout,
+phi5,16,1,0,ok,0.05426184902898967,False,,ok,0.05824773898348212,True,,0.05824773898348212,ok,0
+phi5,16,1,1,ok,0.05755185603629798,False,,timeout,5.0588055300177075,,RuntimeError: Z3 returned unknown: timeout,5.0588055300177075,timeout,
+phi5,16,1,2,ok,0.07374021195573732,False,,ok,0.05759906501043588,True,,0.07374021195573732,ok,0
+phi5,16,2,0,ok,0.05695239402120933,False,,timeout,5.087542423978448,,RuntimeError: Z3 returned unknown: timeout,5.087542423978448,timeout,
+phi5,16,2,1,ok,0.062185782997403294,False,,timeout,5.068891289003659,,RuntimeError: Z3 returned unknown: timeout,5.068891289003659,timeout,
+phi5,16,2,2,ok,0.060172818950377405,False,,ok,0.06686869100667536,True,,0.06686869100667536,ok,0
+phi5,16,4,0,ok,0.06341933697694913,False,,timeout,5.117273306997959,,RuntimeError: Z3 returned unknown: timeout,5.117273306997959,timeout,
+phi5,16,4,1,ok,0.06026366399601102,False,,timeout,5.080336718994658,,RuntimeError: Z3 returned unknown: timeout,5.080336718994658,timeout,
+phi5,16,4,2,ok,0.06863411195809022,False,,timeout,5.0638293320080265,,RuntimeError: Z3 returned unknown: timeout,5.0638293320080265,timeout,
+phi5,16,8,0,ok,0.08293840702390298,False,,timeout,5.082098189042881,,RuntimeError: Z3 returned unknown: timeout,5.082098189042881,timeout,
+phi5,16,8,1,ok,0.05580220103729516,False,,timeout,5.065943295019679,,RuntimeError: Z3 returned unknown: timeout,5.065943295019679,timeout,
+phi5,16,8,2,ok,0.08216926798922941,False,,timeout,5.088805423991289,,RuntimeError: Z3 returned unknown: timeout,5.088805423991289,timeout,
+phi6,4,1,0,ok,0.013158131972886622,False,,ok,0.012119977036491036,True,,0.013158131972886622,ok,0
+phi6,4,1,1,ok,0.011198883992619812,True,,ok,0.013174056017305702,False,,0.013174056017305702,ok,1
+phi6,4,1,2,ok,0.012506146973464638,False,,timeout,5.024326241982635,,RuntimeError: Z3 returned unknown: timeout,5.024326241982635,timeout,
+phi6,4,2,0,ok,0.012710867973510176,False,,timeout,5.018704758025706,,RuntimeError: Z3 returned unknown: timeout,5.018704758025706,timeout,
+phi6,4,2,1,ok,0.01312886702362448,False,,ok,0.01262898399727419,False,,0.01312886702362448,ok,2
+phi6,4,2,2,ok,0.013424003031104803,False,,timeout,5.022068945050705,,RuntimeError: Z3 returned unknown: timeout,5.022068945050705,timeout,
+phi6,4,4,0,ok,0.008270250051282346,False,,timeout,5.015460304974113,,RuntimeError: Z3 returned unknown: timeout,5.015460304974113,timeout,
+phi6,4,4,1,ok,0.011401536001358181,False,,timeout,5.023405059997458,,RuntimeError: Z3 returned unknown: timeout,5.023405059997458,timeout,
+phi6,4,4,2,ok,0.009296835982240736,False,,timeout,5.052302068041172,,RuntimeError: Z3 returned unknown: timeout,5.052302068041172,timeout,
+phi6,8,1,0,ok,0.019405717961490154,False,,timeout,5.031416864017956,,RuntimeError: Z3 returned unknown: timeout,5.031416864017956,timeout,
+phi6,8,1,1,ok,0.02140538499224931,True,,timeout,5.033613333012909,,RuntimeError: Z3 returned unknown: timeout,5.033613333012909,timeout,
+phi6,8,1,2,ok,0.026572117989417166,False,,timeout,5.043799225997645,,RuntimeError: Z3 returned unknown: timeout,5.043799225997645,timeout,
+phi6,8,2,0,ok,0.025945250992663205,False,,timeout,5.06961308902828,,RuntimeError: Z3 returned unknown: timeout,5.06961308902828,timeout,
+phi6,8,2,1,ok,0.018879029958043247,False,,timeout,5.026652114989702,,RuntimeError: Z3 returned unknown: timeout,5.026652114989702,timeout,
+phi6,8,2,2,ok,0.021370117960032076,False,,ok,1.255882464000024,True,,1.255882464000024,ok,0
+phi6,8,4,0,ok,0.0274959160014987,False,,timeout,5.037618490983732,,RuntimeError: Z3 returned unknown: timeout,5.037618490983732,timeout,
+phi6,8,4,1,ok,0.026287638989742845,False,,timeout,5.049139829003252,,RuntimeError: Z3 returned unknown: timeout,5.049139829003252,timeout,
+phi6,8,4,2,ok,0.021969974040985107,False,,timeout,5.034968707012013,,RuntimeError: Z3 returned unknown: timeout,5.034968707012013,timeout,
+phi6,8,8,0,ok,0.01849723601480946,False,,timeout,5.026339458010625,,RuntimeError: Z3 returned unknown: timeout,5.026339458010625,timeout,
+phi6,8,8,1,ok,0.024614952970296144,False,,timeout,5.049103188968729,,RuntimeError: Z3 returned unknown: timeout,5.049103188968729,timeout,
+phi6,8,8,2,ok,0.021530221973080188,False,,timeout,5.037186759989709,,RuntimeError: Z3 returned unknown: timeout,5.037186759989709,timeout,
+phi6,16,1,0,ok,0.07587138604139909,False,,ok,0.07997412298573181,True,,0.07997412298573181,ok,0
+phi6,16,1,1,ok,0.07152951799798757,False,,timeout,5.0754457479924895,,RuntimeError: Z3 returned unknown: timeout,5.0754457479924895,timeout,
+phi6,16,1,2,ok,0.05718558997614309,False,,ok,0.06208086997503415,True,,0.06208086997503415,ok,0
+phi6,16,2,0,ok,0.0575902359560132,False,,timeout,5.102403319033328,,RuntimeError: Z3 returned unknown: timeout,5.102403319033328,timeout,
+phi6,16,2,1,ok,0.06190627097385004,False,,timeout,5.061482711986173,,RuntimeError: Z3 returned unknown: timeout,5.061482711986173,timeout,
+phi6,16,2,2,ok,0.06433647405356169,False,,ok,0.06801531004020944,True,,0.06801531004020944,ok,0
+phi6,16,4,0,ok,0.07343317801132798,False,,timeout,5.079582480015233,,RuntimeError: Z3 returned unknown: timeout,5.079582480015233,timeout,
+phi6,16,4,1,ok,0.05662575300084427,False,,timeout,5.066699618997518,,RuntimeError: Z3 returned unknown: timeout,5.066699618997518,timeout,
+phi6,16,4,2,ok,0.0795876610209234,False,,timeout,5.063605414004996,,RuntimeError: Z3 returned unknown: timeout,5.063605414004996,timeout,
+phi6,16,8,0,ok,0.08112946600886062,False,,timeout,5.080853271996602,,RuntimeError: Z3 returned unknown: timeout,5.080853271996602,timeout,
+phi6,16,8,1,ok,0.08107794099487364,False,,timeout,5.069020961003844,,RuntimeError: Z3 returned unknown: timeout,5.069020961003844,timeout,
+phi6,16,8,2,ok,0.0791608479921706,False,,timeout,5.092727568000555,,RuntimeError: Z3 returned unknown: timeout,5.092727568000555,timeout,

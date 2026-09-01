@@ -1,0 +1,250 @@
+{
+  "module": "benchmarks/offline/exact/smt/random_grid_timed.py",
+  "formulas": [
+    "phi5",
+    "phi6"
+  ],
+  "durations": [
+    4,
+    8,
+    16
+  ],
+  "epsilons": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "samples": [
+    0,
+    1,
+    2
+  ],
+  "timeout_seconds_per_polarity": 5,
+  "exact_time_definition": "max(positive_seconds, negative_seconds)",
+  "instances": 66,
+  "completed_instances": 14,
+  "timed_out_instances": 52,
+  "formula_stats": {
+    "phi5": {
+      "instances": 33,
+      "completed": 7,
+      "timed_out": 26,
+      "completed_fraction": 0.21212121212121213,
+      "median_exact_seconds_completed": 0.025932692049536854,
+      "maximum_exact_seconds_completed": 0.07374021195573732,
+      "positive_checks_completed": 33,
+      "median_positive_seconds": 0.02515493199462071,
+      "maximum_positive_seconds": 0.08293840702390298,
+      "negative_checks_completed": 7,
+      "median_negative_seconds_completed": 0.020200869999825954,
+      "maximum_negative_seconds_completed": 0.06686869100667536,
+      "completed_verdicts": {
+        "0": 7
+      }
+    },
+    "phi6": {
+      "instances": 33,
+      "completed": 7,
+      "timed_out": 26,
+      "completed_fraction": 0.21212121212121213,
+      "median_exact_seconds_completed": 0.06208086997503415,
+      "maximum_exact_seconds_completed": 1.255882464000024,
+      "positive_checks_completed": 33,
+      "median_positive_seconds": 0.024614952970296144,
+      "maximum_positive_seconds": 0.08112946600886062,
+      "negative_checks_completed": 7,
+      "median_negative_seconds_completed": 0.06208086997503415,
+      "maximum_negative_seconds_completed": 1.255882464000024,
+      "completed_verdicts": {
+        "0": 5,
+        "1": 1,
+        "2": 1
+      }
+    }
+  },
+  "matrix": [
+    {
+      "formula": "phi5",
+      "duration": 4,
+      "epsilon": 1,
+      "completed": 2,
+      "timed_out": 1,
+      "median_exact_seconds_completed": 0.010264915996231139
+    },
+    {
+      "formula": "phi5",
+      "duration": 4,
+      "epsilon": 2,
+      "completed": 0,
+      "timed_out": 3,
+      "median_exact_seconds_completed": null
+    },
+    {
+      "formula": "phi5",
+      "duration": 4,
+      "epsilon": 4,
+      "completed": 0,
+      "timed_out": 3,
+      "median_exact_seconds_completed": null
+    },
+    {
+      "formula": "phi5",
+      "duration": 8,
+      "epsilon": 1,
+      "completed": 1,
+      "timed_out": 2,
+      "median_exact_seconds_completed": 0.024681500042788684
+    },
+    {
+      "formula": "phi5",
+      "duration": 8,
+      "epsilon": 2,
+      "completed": 0,
+      "timed_out": 3,
+      "median_exact_seconds_completed": null
+    },
+    {
+      "formula": "phi5",
+      "duration": 8,
+      "epsilon": 4,
+      "completed": 1,
+      "timed_out": 2,
+      "median_exact_seconds_completed": 0.025932692049536854
+    },
+    {
+      "formula": "phi5",
+      "duration": 8,
+      "epsilon": 8,
+      "completed": 0,
+      "timed_out": 3,
+      "median_exact_seconds_completed": null
+    },
+    {
+      "formula": "phi5",
+      "duration": 16,
+      "epsilon": 1,
+      "completed": 2,
+      "timed_out": 1,
+      "median_exact_seconds_completed": 0.06599397546960972
+    },
+    {
+      "formula": "phi5",
+      "duration": 16,
+      "epsilon": 2,
+      "completed": 1,
+      "timed_out": 2,
+      "median_exact_seconds_completed": 0.06686869100667536
+    },
+    {
+      "formula": "phi5",
+      "duration": 16,
+      "epsilon": 4,
+      "completed": 0,
+      "timed_out": 3,
+      "median_exact_seconds_completed": null
+    },
+    {
+      "formula": "phi5",
+      "duration": 16,
+      "epsilon": 8,
+      "completed": 0,
+      "timed_out": 3,
+      "median_exact_seconds_completed": null
+    },
+    {
+      "formula": "phi6",
+      "duration": 4,
+      "epsilon": 1,
+      "completed": 2,
+      "timed_out": 1,
+      "median_exact_seconds_completed": 0.013166093995096162
+    },
+    {
+      "formula": "phi6",
+      "duration": 4,
+      "epsilon": 2,
+      "completed": 1,
+      "timed_out": 2,
+      "median_exact_seconds_completed": 0.01312886702362448
+    },
+    {
+      "formula": "phi6",
+      "duration": 4,
+      "epsilon": 4,
+      "completed": 0,
+      "timed_out": 3,
+      "median_exact_seconds_completed": null
+    },
+    {
+      "formula": "phi6",
+      "duration": 8,
+      "epsilon": 1,
+      "completed": 0,
+      "timed_out": 3,
+      "median_exact_seconds_completed": null
+    },
+    {
+      "formula": "phi6",
+      "duration": 8,
+      "epsilon": 2,
+      "completed": 1,
+      "timed_out": 2,
+      "median_exact_seconds_completed": 1.255882464000024
+    },
+    {
+      "formula": "phi6",
+      "duration": 8,
+      "epsilon": 4,
+      "completed": 0,
+      "timed_out": 3,
+      "median_exact_seconds_completed": null
+    },
+    {
+      "formula": "phi6",
+      "duration": 8,
+      "epsilon": 8,
+      "completed": 0,
+      "timed_out": 3,
+      "median_exact_seconds_completed": null
+    },
+    {
+      "formula": "phi6",
+      "duration": 16,
+      "epsilon": 1,
+      "completed": 2,
+      "timed_out": 1,
+      "median_exact_seconds_completed": 0.07102749648038298
+    },
+    {
+      "formula": "phi6",
+      "duration": 16,
+      "epsilon": 2,
+      "completed": 1,
+      "timed_out": 2,
+      "median_exact_seconds_completed": 0.06801531004020944
+    },
+    {
+      "formula": "phi6",
+      "duration": 16,
+      "epsilon": 4,
+      "completed": 0,
+      "timed_out": 3,
+      "median_exact_seconds_completed": null
+    },
+    {
+      "formula": "phi6",
+      "duration": 16,
+      "epsilon": 8,
+      "completed": 0,
+      "timed_out": 3,
+      "median_exact_seconds_completed": null
+    }
+  ],
+  "thirty_second_retries": {
+    "instances": 4,
+    "completed": 0,
+    "timed_out": 4,
+    "single_worker_confirmation": "phi5 d=4 eps=1 sample=1 negative timed out after 30 seconds"
+  }
+}
